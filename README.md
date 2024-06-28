@@ -1,1 +1,1 @@
-# cfk-yugabyte
+# cfk-kafka-connect-yugabyte
