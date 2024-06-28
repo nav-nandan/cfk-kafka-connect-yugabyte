@@ -54,3 +54,9 @@ $ curl -X GET http://localhost:8083/connector-plugins | jq
   }
 ]
 ```
+
+## Checksum for yugabyte-cdc-source.zip - update [confluent-platform.singlenode.yaml#L81](https://github.com/nav-nandan/cfk-kafka-connect-yugabyte/blob/main/confluent-platform-singlenode.yaml#L81) if new version of jars used
+```bash
+$ shasum -a 512 yugabyte-cdc-source.zip
+3a52ee9f22956fa85a6b1eb5ac066d41e4b05657700d747b320be0dac18da7148748bf27970fe0379ee8f652fe3f1c842f2df587e3d0e7a76a2593a4f7dd1df4  yugabyte-cdc-source.zip
+```
